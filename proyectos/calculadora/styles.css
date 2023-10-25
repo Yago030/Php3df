@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+body{
+    background: #f2f2f2;
+}
+
+div.container{
+    width: 50%;
+    margin: 120px auto 0 auto;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0,0, 0.3);
+    border-radius: 2px;
+    background: white;
+    border-bottom: 5px solid #f28c07;
+}
+
+div.container div.calc {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    overflow: hidden; /* Si se sale algo lo oculta*/
+}
+
+div.container div.calc h2{
+    margin :0;
+    border-bottom:1px solid #f28c07;
+    color: #f28c07;
+}
+
+
+form {
+    margin-top:10px;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #d2d2d2;
+   
+}
+
+div.op{
+    width: 25%;
+    float:left; 
+    padding: 10px;
+}
+
+input[type=submit] {
+width: 100%;
+padding: 10px;
+border:none;
+margin: 0px 0px;
+background-color: #f28c07;
+color: white;
+box-shadow: 0px 0px 5px 0px rgba(0, 0,0, 0.2);
+transition: all 0.3s ease;
+}
+
+
+input[type=submit]:hover{
+    transform: scale(1.1);
+}
+
+.resultado {
+    text-align: right;
+    font-size:60px ;
+    color: #f28c07;
+}
